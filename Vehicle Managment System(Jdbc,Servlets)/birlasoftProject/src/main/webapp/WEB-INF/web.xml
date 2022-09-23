@@ -1,0 +1,108 @@
+<!DOCTYPE web-app PUBLIC
+ "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+ "http://java.sun.com/dtd/web-app_2_3.dtd" >
+
+<web-app>
+
+	<servlet>
+		<servlet-name>userlogin</servlet-name>
+		<servlet-class>Servlets.UserLogIn</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>userlogin</servlet-name>
+		<url-pattern>/userlogin</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>loadbookridepage</servlet-name>
+		<servlet-class>Servlets.loadbookridepage</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>loadbookridepage</servlet-name>
+		<url-pattern>/loadbookridepage</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>bookride</servlet-name>
+		<servlet-class>Servlets.bookride</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>bookride</servlet-name>
+		<url-pattern>/bookride</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>confirmride</servlet-name>
+		<servlet-class>Servlets.confirmride</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>confirmride</servlet-name>
+		<url-pattern>/confirmride</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>ridehistory</servlet-name>
+		<servlet-class>Servlets.ridehistory</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>ridehistory</servlet-name>
+		<url-pattern>/loadridepage</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>adminlogin</servlet-name>
+		<servlet-class>Servlets.AdminLogIn</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>adminlogin</servlet-name>
+		<url-pattern>/adminlogin</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>getallrides</servlet-name>
+		<servlet-class>Servlets.getAllRides</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>getallrides</servlet-name>
+		<url-pattern>/getallrides</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>adddriver</servlet-name>
+		<servlet-class>Servlets.adddriver</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>adddriver</servlet-name>
+		<url-pattern>/adddriver</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>addvehicle</servlet-name>
+		<servlet-class>Servlets.addVehicle</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>addvehicle</servlet-name>
+		<url-pattern>/addvehicle</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>showdrivers</servlet-name>
+		<servlet-class>Servlets.getalldrivers</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>showdrivers</servlet-name>
+		<url-pattern>/getalldrivers</url-pattern>
+	</servlet-mapping>
+	
+	<servlet>
+		<servlet-name>showvehicles</servlet-name>
+		<servlet-class>Servlets.getallvehicles</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>showvehicles</servlet-name>
+		<url-pattern>/getallvehicles</url-pattern>
+	</servlet-mapping>
+</web-app>
+
+
+

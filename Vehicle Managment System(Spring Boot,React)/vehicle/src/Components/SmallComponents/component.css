@@ -1,0 +1,49 @@
+.tost{
+    height: 555px;
+    width: 350px;
+    margin: 10px;
+}
+.ubuttons{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.heading{
+    color:#0d6efd;
+}
+.link{
+    list-style: none;
+    text-decoration: none;
+    color: aliceblue;
+}
+.link:hover{
+    color: black;
+}
+.boxsize{
+    display: flex;
+    width: 500px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box2{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+.listbox{
+    display: flex;
+    width: 900px;
+    height: 400px;
+    overflow: scroll;
+
+}
+.bookform{
+    display: flex;
+    flex-direction:row;
+   
+    align-items: center;
+}

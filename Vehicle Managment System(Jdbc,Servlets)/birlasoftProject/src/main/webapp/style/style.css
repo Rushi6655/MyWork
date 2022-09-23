@@ -1,0 +1,67 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+
+}
+.page{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 200px;
+    padding: 20px;
+    width: 800px;
+    height: auto;
+    border: 2px solid #f3eeee;
+    box-shadow: 11px 24px 36px -9px;
+}
+.page2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 100px;
+    padding: 20px;
+    width: 800px;
+    height: auto;
+    border: 2px solid #f3eeee;
+    box-shadow: 11px 24px 36px -9px;
+}
+.formcard{
+    display: flex;
+    margin-top: 50px;
+    width: 600px;
+    flex-direction: column;
+}
+.driverlist{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    padding: 20px;
+    width: 800px;
+    height: 200px;
+    overflow:scroll;
+    border: 2px solid #f3eeee;
+    box-shadow: 11px 24px 36px -9px;
+    scroll-behavior: smooth;
+}
+.vehiclelist{
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    padding: 20px;
+    width: 800px;
+    height: 200px;
+    overflow:scroll;
+    border: 2px solid #f3eeee;
+    box-shadow: 11px 24px 36px -9px;
+    scroll-behavior: smooth;
+}
+.icon{
+    height: 26px;
+    width: auto;
+    margin-right: 10px;
+}
